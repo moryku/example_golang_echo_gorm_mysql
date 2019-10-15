@@ -1,8 +1,8 @@
 package route
 
 import (
-	"github.com/heroku/go-getting-started/app/controller/user"
 	"github.com/heroku/go-getting-started/app/config"
+	"github.com/heroku/go-getting-started/app/controller/user"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )

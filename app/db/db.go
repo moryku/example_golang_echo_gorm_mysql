@@ -36,7 +36,6 @@ func Init() {
 }
 //
 func migrate() {
-	db.Model(&model.User{}).DropColumn("address")
 	db.AutoMigrate(&model.User{})
 	db.AutoMigrate(&model.Authentication{})
 	db.Model(&model.Authentication{}).AddForeignKey("user_id",

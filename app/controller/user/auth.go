@@ -1,29 +1,17 @@
 package user
 
 import (
-	"fmt"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/labstack/echo"
-	"net/http"
 	"github.com/heroku/go-getting-started/app/config"
 	"github.com/heroku/go-getting-started/app/db"
 	"github.com/heroku/go-getting-started/app/model"
 	"github.com/heroku/go-getting-started/app/util"
+	"github.com/labstack/echo"
+	"net/http"
 	"strconv"
 )
 
 func CreateUser(c echo.Context) error {
-
-	defer func() {
-		if err := recover(); err != nil {
-			fmt.Println("Error: ", err)
-		}
-	}()
-
-	anOddCondition := true
-	if anOddCondition {
-		panic("I am panicking")
-	}
 
 	var myDb = db.DbManager()
 	config := config.GetConfig()
