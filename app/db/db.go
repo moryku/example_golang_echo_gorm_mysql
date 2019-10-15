@@ -11,10 +11,12 @@ import (
 	//_ "github.com/jinzhu/gorm/dialects/mysql"
 	//"github.com/heroku/go-getting-started/app/config"
 	//"github.com/jinzhu/gorm"
+	"github.com/heroku/go-getting-started/app/model"
+	"github.com/jinzhu/gorm"
 )
 
-//var db *gorm.DB
-//var err error
+var db *gorm.DB
+var err error
 
 func Init() {
 	//configuration := config.GetConfig()
@@ -33,14 +35,14 @@ func Init() {
 	//migrate()
 }
 //
-//func migrate() {
-//	db.Model(&model.User{}).DropColumn("address")
-//	db.AutoMigrate(&model.User{})
-//	db.AutoMigrate(&model.Authentication{})
-//	db.Model(&model.Authentication{}).AddForeignKey("user_id",
-//		"users(id)", "CASCADE", "CASCADE")
-//}
-//
-//func DbManager() *gorm.DB {
-//	return db
-//}
+func migrate() {
+	db.Model(&model.User{}).DropColumn("address")
+	db.AutoMigrate(&model.User{})
+	db.AutoMigrate(&model.Authentication{})
+	db.Model(&model.Authentication{}).AddForeignKey("user_id",
+		"users(id)", "CASCADE", "CASCADE")
+}
+
+func DbManager() *gorm.DB {
+	return db
+}
