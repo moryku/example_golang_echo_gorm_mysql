@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e159db5a-a19c-4f79-8705-2aeabf9144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/middleware/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/authentication.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/util/respond.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/util/util.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/colorable_others.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/colorable_others.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/colorable_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-colorable/colorable_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_bsd.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_bsd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/isatty_windows.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/context/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/golang.org/x/net/context/context.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +33,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1SESFInoKSkv4B0GNEzv9as1FHp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
