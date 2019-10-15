@@ -1,10 +1,9 @@
 package db
 
 import (
-	"simple-rest-api-moryku/app/config"
-	"simple-rest-api-moryku/app/model"
+	"github.com/heroku/go-getting-started/app/config"
+	"github.com/heroku/go-getting-started/app/model"
 	"fmt"
-
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
